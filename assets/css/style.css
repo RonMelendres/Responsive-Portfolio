@@ -234,7 +234,7 @@ footer{
 @media only screen and (max-width: 768px){
 
     body{
-        
+       
         background-image: url("../Images/interlaced.png")
     }
     
@@ -281,7 +281,7 @@ footer{
         background-color:#ffffff;
         border:1px solid #dddddd;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 12px;
+        font-size: 11px;
         color: #777777;
         width: 600px; 
         height: 375px;
@@ -303,21 +303,40 @@ footer{
     hr{
         border: 2px solid #dddddd;
     }
+
+    #Claude{
+        float: left;
+        
+        width:200px;
+        height: 200px;
+    }
     
     #p1{
-        margin:-260px 300px 10px 300px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 100px;
+        margin: 10px 410px 10px 60px;
         width: 70%;
         line-height: 1.6;
     }
     
     #p2{
-        margin:10px 10px 10px 300px;
+        padding-top: 80px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 100px;
+        margin:10px 10px 10px 100px;
         width: 70%;
         line-height: 1.6;
     }
     
     #p3{
-        margin:10px 10px 10px 300px;
+        padding-top: 0px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 100px;
+        margin:10px 10px 10px 100px;
         width: 70%;
         line-height: 1.6;
     }
@@ -331,11 +350,11 @@ footer{
         color:#777777;
         text-align: center;
         border-top: 7px solid #4aaaa5;
-        margin:-8px 0px -9px 180px;
-        padding-top: 50px;
+        margin:114px -310px -10px 180px;
+        padding-top: 35px;
+        padding-right: 150px;
         padding-bottom: 35px;
-        padding-right: 179px;
-        padding-left: 575px;
+        padding-left: 150px;
     }
 }
 
@@ -405,6 +424,13 @@ footer{
     
     hr{
         border: 2px solid #dddddd;
+    }
+
+    #Claude{
+        float: left;
+        
+        width:195px;
+        height: 200px;
     }
     
     #p1{
